@@ -25,6 +25,12 @@ public class FuncotatorConstants {
     public static final String UNKNOWN_VALUE_STRING = "__UNKNOWN__";
 
     /**
+     * Value to use when a protein sequence is not decodable due to IUPAC bases in the sequence.
+     */
+    public static final String UNDECODABLE_AMINO_ACID_SEQUENCE = "pUNDECODABLE";
+
+    /**
+     *
      * Datasource name to use for Funcotations created from input variants from a VCF.
      */
     public static final String DATASOURCE_NAME_FOR_INPUT_VCFS = "INPUT_VCF";
